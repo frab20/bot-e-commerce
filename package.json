@@ -1,0 +1,30 @@
+{
+  "name": "bot-e-commerce",
+  "version": "1.0.8",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frab20/bot-e-commerce.git"
+  },
+  "keywords": [
+    "bot",
+    "e-commerce"
+  ],
+  "author": "fraska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frab20/bot-e-commerce/issues"
+  },
+  "homepage": "https://github.com/frab20/bot-e-commerce#readme",
+  "dependencies": {
+    "even": "^0.1.1",
+    "jimp": "^0.16.2",
+    "nodemon": "^2.0.20",
+    "puppeteer": "^19.4.1"
+  }
+}
